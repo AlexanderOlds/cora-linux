@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	[bootloader] /home/axertin/Documents/Projects/petalinux/cora-linux/images/linux/zynq_fsbl.elf
+	/home/axertin/Documents/Projects/petalinux/cora-linux/images/linux/system.bit
+	/home/axertin/Documents/Projects/petalinux/cora-linux/images/linux/u-boot.elf
+	[load=0x00100000] /home/axertin/Documents/Projects/petalinux/cora-linux/images/linux/system.dtb
+}
